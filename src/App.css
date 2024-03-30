@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    transition: 2s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-in {
+    width: 1600px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 25px 20px 20px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin: 0 20px 0 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.nav a .bttn {
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-left: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    overflow: hidden;
+}
+.nav a .bttn p {
+    position: absolute;
+    z-index: 1;
+    top: 12px;
+}
+
+.nav a .bttn .bttn-slide {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 45px;
+    padding-left: 25px;
+    transform: translateX(-150px);
+    transition: 0.5s;
+}
+
+.nav a .bttn:hover .bttn-slide {
+    transform: translate(-30px);
+}
+
+.nav a .bttn:hover p {
+    color: rgb(0, 0, 0);
+    transition: 0.2s ease-in;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 37, 37);
+    padding-top: 50px;
+}
+
+.content .content-in {
+    width: 1600px;
+}
+
+.content .content-in .content-all {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cont-one {
+    color: white;
+    width: 500px;
+    margin-right: 300px;
+}
+
+.cont-one h5 {
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.cont-one h5 a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 2px 2px 7px;
+    margin: 0 5px 0 5px;
+    background: rgb(24,0,146);
+    background: linear-gradient(261deg, rgba(24,0,146,1) 0%, rgba(9,66,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.cont-one-bttn {
+    width: 110px;
+    height: 40px;
+    padding: 15px 0px 0px 40px;
+    padding-top: 15px;
+    background-color: rgb(37, 37, 37);
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cont-one-bttn:hover {
+    color: black;
+    background-color: white;
+}
+
+.cont-one-bttn a:hover {
+    color: white;
+}
+
+.cont-one h1 {
+    font-size: 50px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.cont-two img {
+    width: 280px;
+    margin-top: 50px;
+}
+
+.board-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.board-all .board-in {
+    width: 1090px;
+    height: 50px;
+}
+
+.board-all .board-in .board {
+    width: 1080px;
+    height: 120px;
+    border-radius: 15px;
+    position: absolute;
+    top: 10;
+    box-shadow: -1px 5px 15px 0px rgba(0,0,0,0.75);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.board-all .board-in .board .premium {
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+}
+
+.board-all .board-in .board .premium p {
+    margin-left: 10px;
+    width: 0;
+}
+
+.board-all .board-in .board .custom {
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 200px 0 200px;
+}
+
+.board-all .board-in .board .custom p {
+    margin-left: 10px;
+    width: 0;
+}
+
+.board-all .board-in .board .outlet {
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+.board-all .board-in .board .outlet p {
+    margin-left: 10px;
+    width: 0;
+}

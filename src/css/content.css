@@ -1,0 +1,258 @@
+.item-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.item-all .item-in {
+    width: 1600px;
+}
+
+.item-all .item-in .item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-all .item-in .item .item-title-one p {
+    color: blue;
+    margin-bottom: 0;
+}
+.item-all .item-in .item .item-title-two h1 {
+    font-size: 32px;
+    margin: 0 auto 0 auto;
+}
+
+.item-all .item-in .item .item-title-three p{
+    width: 550px;
+    text-align: center;
+}
+
+/* ------------ Spesific List ------------ */
+
+.spesific {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.spesific .spesific-one {
+    width: 400px;
+}
+
+.spesific .spesific-one .text-one {
+    width: 320px;
+    margin: 50px auto auto 90px ;
+}
+
+.spesific .spesific-one .text-one h4 {
+    margin-bottom: 5px;
+}
+
+.spesific .spesific-one .text-one h4 .tes{
+    margin-right: 10px;
+    font-size: 14pt;
+}
+
+.spesific .spesific-one .text-one p {
+    margin-top: 0;
+}
+
+.spesific .spesific-one .text-two {
+    width: 320px;
+    margin: 50px auto auto 90px ;
+}
+
+.spesific .spesific-one .text-two h4 {
+    margin-bottom: 5px;
+}
+
+.spesific .spesific-one .text-two h4 .tes{
+    margin-right: 10px;
+    font-size: 15pt;
+}
+
+.spesific .spesific-one .text-two p {
+    margin-top: 0;
+}
+
+.spesific .spesific-one .text-three {
+    width: 320px;
+    margin: 50px auto auto 90px ;
+}
+
+.spesific .spesific-one .text-three h4 {
+    margin-bottom: 5px;
+}
+
+.spesific .spesific-one .text-three h4 .tes{
+    margin-right: 10px;
+    font-size: 16pt;
+}
+
+.spesific .spesific-one .text-three p {
+    margin-top: 0;
+}
+
+.spesific .spesific-one .text-four {
+    width: 320px;
+    margin: 40px auto auto 90px ;
+}
+
+.spesific .spesific-one .text-four h4 {
+    margin-bottom: 5px;
+}
+
+.spesific .spesific-one .text-four h4 .tes{
+    margin-right: 10px;
+    font-size: 14pt;
+}
+
+.spesific .spesific-one .text-four p {
+    margin-top: 0;
+}
+
+
+/* ------------- spesific two -------------- */
+
+
+.spesific .spesific-two {
+    width: 380px;
+}
+
+.spesific .spesific-two img {
+    margin-top: 0px;
+    width: 465px;
+}
+
+/* ------------- spesific three -------------- */
+
+.spesific .spesific-three {
+    width: 400px;
+}
+
+.spesific .spesific-three .text-one {
+    width: 320px;
+    margin: 50px auto auto 25px ;
+}
+
+.spesific .spesific-three .text-one h4 {
+    margin-bottom: 5px;
+}
+
+.spesific .spesific-three .text-one h4 .tes{
+    margin-right: 10px;
+    font-size: 14pt;
+}
+
+.spesific .spesific-three .text-one p {
+    margin-top: 0;
+}
+
+.spesific .spesific-three .text-two {
+    width: 320px;
+    margin: 50px auto auto 25px ;
+}
+
+.spesific .spesific-three .text-two h4 {
+    margin-bottom: 5px;
+}
+
+.spesific .spesific-three .text-two h4 .tes{
+    margin-right: 10px;
+    font-size: 14pt;
+}
+
+.spesific .spesific-three .text-two p {
+    margin-top: 0;
+}
+
+.spesific .spesific-three .text-three {
+    width: 320px;
+    margin: 50px auto auto 25px ;
+}
+
+.spesific .spesific-three .text-three h4 {
+    margin-bottom: 5px;
+}
+
+.spesific .spesific-three .text-three h4 .tes{
+    margin-right: 10px;
+    font-size: 14pt;
+}
+
+.spesific .spesific-three .text-three p {
+    margin-top: 0;
+}
+
+.spesific .spesific-three .text-four {
+    width: 320px;
+    margin: 50px auto auto 25px ;
+}
+
+.spesific .spesific-three .text-four h4 {
+    margin-bottom: 5px;
+}
+
+.spesific .spesific-three .text-four h4 .tes{
+    margin-right: 10px;
+    font-size: 14pt;
+}
+
+.spesific .spesific-three .text-four p {
+    margin-top: 0;
+}
+
+/* ------------ Button ------------ */
+
+.new-button-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.new-button {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+}
+
+.new-button-in {
+    width: 155px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 55px;
+    border: 3px solid rgb(0, 0, 0);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.new-button-in p {
+    position: absolute;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.new-button-in .new-in {
+    background-color: rgb(12, 12, 12);
+    width: 250px;
+    height: 60px;
+    padding-left: 25px;
+    transform: translateX(-360px);
+    transition: 0.5s;
+}
+
+.new-button-in:hover .new-in {
+    transform: translate(-85px);
+}
+
+.new-button-in:hover p {
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease-in;
+    font-weight: 400;
+}

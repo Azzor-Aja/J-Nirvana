@@ -1,0 +1,148 @@
+.contact-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.contact-all .contact-in {
+    width: 1600px;
+}
+
+.contact-all .contact-in .contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-in .contact .contact-text {
+    width: 600px;
+    display: flex;
+    margin-left: 25px;
+    flex-direction: column;
+}
+
+.contact-in .contact .contact-text h4 {
+    color: blue;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.contact-in .contact .contact-text h1 {
+    font-size: 32px;
+    color: rgb(37, 37, 37);
+    margin-top: 0;
+}
+
+.contact-in .contact .contact-text p {
+    width: 430px;
+    margin-top: 0;
+}
+
+
+/* ------------------- grid contact ---------------------- */
+
+.gridContact {
+    width: 400px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.gridContact-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.071);
+    margin: 0px 5px 10px 5px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.gridContact-item .gridContact-allItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------------- Item ----------------------- */
+
+.gridContact-allItem .contact-font {
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 10px 0 0;
+    color: blue;
+    background-color: rgba(169, 211, 236, 0.366);
+    border-radius: 5px;
+}
+
+/* -------------------------- Item ----------------------- */
+
+.gridContact-allItem .contactNumber {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.gridContact-allItem .contactNumber h6 {
+    font-size: 13px;
+    margin: 5px 0 0 0;
+    text-align: justify;
+}
+
+.gridContact-allItem .contactNumber p {
+    font-size: 12px;
+    margin-top: 0;
+    font-weight: 500;
+    text-align: left;
+}
+
+/* ---------------------- Button ------------------------- */
+
+.gridContact-item .contact-bttn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-bttn .contact-bttn-in {
+    width: 150px;
+    padding: 12px 0 0 0;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-bttn .contact-bttn-in:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-weight: 600px;
+}
+
+.contact-bttn .contact-bttn-in p {
+    scale: 1.1;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------------- frame ------------------------- */
+
+.contact-map {
+    width: 550px;
+}
+
+.frame {
+    margin-left: 20px;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px rgba(132, 132, 132, 0.227);
+}
+
