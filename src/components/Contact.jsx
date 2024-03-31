@@ -79,7 +79,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="contact-map" data-aos="fade-left">
-                        <iframe 
+                        <iframe
                             className="frame"
                             width="500" 
                             height="550" 

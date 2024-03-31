@@ -221,7 +221,7 @@ function article() {
                                         </div>
                                         <div className="textVisit">
                                             <FontAwesomeIcon icon={faEye} className='visit'/>
-                                            <p>50.5k</p>
+                                            <p>50.3k</p>
                                         </div>
                                     </div>
                                     <div className="right">
