@@ -17,7 +17,7 @@ function article() {
           <div className="item-in">
             <div className="item">
                 <div className="item-title-one">
-                <p data-aos="fade-in">Our Article</p>
+                <p data-aos="fade-i">Our Article</p>
                 </div>
                 <div className="item-title-two">
                 <h1 data-aos="fade-in">Our Article For This Week</h1>

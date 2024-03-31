@@ -11,7 +11,7 @@ function Contact() {
             <div className="contact-in">
                 <div className="contact">
                     <div className="contact-text">
-                        <h4 data-aos="fade-right">Contact Us</h4>
+                        <h4 data-aos="fade-righ">Contact Us</h4>
                         <h1 data-aos="fade-right">Get In Touch With Us</h1>
                         <p data-aos="fade-right">
                             Is there a problem finding 
