@@ -1,0 +1,210 @@
+.articleTitle-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.articleTitle-all .articleTitle-in {
+    width: 1260px;
+}
+
+.articleTitle-all .articleTitle-in .articleTitle {
+    width: 100%;
+}
+
+/* ------------------------ Grid Article ----------------------- */
+
+.gridArticle{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+.gridArticle-item {
+    background-color: white;
+    padding: 10px 0 0 0;
+    margin: 20px 12px 20px 12px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+.gridArticle-item:hover {
+    box-shadow: 0 8px 10px 1px rgba(37, 37, 37, 0.099);
+}
+
+/* ----------------------- Image Grid Article ------------------ */
+
+.gridArticle-item .gridArticle-one img {
+    width: 370px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.gridArticle-item .gridArticle-two img {
+    width: 370px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.gridArticle-item .gridArticle-three img {
+    width: 370px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.gridArticle-item .gridArticle-four img {
+    width: 370px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.gridArticle-item .gridArticle-five img {
+    width: 370px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.gridArticle-item .gridArticle-six img {
+    width: 370px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+/* --------------------- Text Article --------------------- */
+
+.textArticle {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 5px;
+}
+
+.textArticle .textArticle-in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textArticle .left {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.textArticle .left .textClock {
+    display: flex;
+    margin-bottom: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.textArticle .left .textClock:hover {
+    scale: 1.1;
+}
+
+.textArticle .left .textClock .clock {
+    font-size: 18px;
+    margin: 12px 4px 0 10px;
+}
+
+.textArticle .left  .textClock p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.textArticle .left .textVisit {
+    display: flex;
+    margin-bottom: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.textArticle .left .textVisit:hover {
+    scale: 1.1;
+}
+
+.textArticle .left .textVisit .visit {
+    font-size: 17px;
+    margin: 12px 4px 0 10px;
+}
+
+.textArticle .left .textVisit p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.textArticle .right {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.textArticle .right .textSave {
+    display: flex;
+    margin-bottom: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.textArticle .right .textSave:hover {
+    transform: translateY(-5px);
+}
+
+.textArticle .right .textSave .bookmark {
+    font-size: 17px;
+    margin: 12px 4px 0 10px;
+}
+
+.textArticle .right .textSave p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* ----------------- Mc Article ------------------- */
+
+.articleTitle-in .peakArticle {
+    width: 350px;
+    margin: 0 0 0 10px;
+}
+
+.peakArticle h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(37, 37, 37);
+    margin: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.peakArticle h3:hover {
+    color: blue;
+}
+
+.peakArticle p {
+    font-size: 17px;
+    text-align: left;
+    margin-top: 0;
+}
+
+/* ------------------- Article Button ------------------ */
+
+.articleTitle-in .articleButton {
+    width: 100px;
+    height: 40px;
+    margin: 0 0 20px 10px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.articleTitle-in .articleButton:hover {
+    background-color: rgba(0, 0, 0, 0.773);
+}
+
+.articleButton h4 {
+    margin-top: 10px;
+    font-weight: 400;
+}
