@@ -52,7 +52,7 @@ function article() {
                                     <div className="right">
                                         <div className="textSave">
                                             <FontAwesomeIcon icon={faBookmark} className='bookmark'/>
-                                            <p>5k</p>
+                                            <p>5.9k</p>
                                         </div>
                                     </div>
                                 </div>
